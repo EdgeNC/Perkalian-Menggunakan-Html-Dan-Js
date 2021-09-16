@@ -1,0 +1,31 @@
+<html>
+<head><title>Edge Javascript Project</title></head>
+<body>
+<p><script language="javascript">
+<!--
+
+function segi4()
+{
+var angka1 = 
+parseFloat(document.fform.angka12.value);
+if (isNaN (angka1))
+angka12=0.0;
+var angka2 = parseFloat(document.fform.angka13.value);
+if (isNaN (angka2))
+angka13=0.0;
+var luas = angka1 * angka2;
+alert("Hasil perkalian = " + luas);
+}
+//--></script></p>
+<form name ="fform">
+<h1><br>masukan Data Lewat Keyboard</h1>
+<pre>
+angka1:<input type="text" size="11" name="angka12">
+angka2:<input type="text" size="11" name="angka13">
+</pre>
+<p>
+<input type="button" value="kalikan" onclick="segi4()">
+<input type="reset" value="ulang">
+</form>
+</body>
+</html>
