@@ -4,7 +4,7 @@
 <p><script language="javascript">
 <!--
 
-function segi4()
+function kali()
 {
 var angka1 = 
 parseFloat(document.fform.angka12.value);
@@ -13,8 +13,8 @@ angka12=0.0;
 var angka2 = parseFloat(document.fform.angka13.value);
 if (isNaN (angka2))
 angka13=0.0;
-var luas = angka1 * angka2;
-alert("Hasil perkalian = " + luas);
+var hasil = angka1 * angka2;
+alert("Hasil perkalian = " + hasil);
 }
 //--></script></p>
 <form name ="fform">
@@ -24,7 +24,7 @@ angka1:<input type="text" size="11" name="angka12">
 angka2:<input type="text" size="11" name="angka13">
 </pre>
 <p>
-<input type="button" value="kalikan" onclick="segi4()">
+<input type="button" value="kalikan" onclick="kali()">
 <input type="reset" value="ulang">
 </form>
 </body>
